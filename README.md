@@ -1,6 +1,7 @@
 # CustomerStatement
 
-My one-hour solution Most of that hour went into writing tests
+My one-hour solution  
+Most of that hour went into writing tests
 
 ## Build
 
