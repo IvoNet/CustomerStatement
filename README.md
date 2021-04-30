@@ -1,6 +1,6 @@
 # CustomerStatement
 
-My Solution in about 1 hour
+My one-hour solution Most of that hour went into writing tests
 
 ## Build
 
