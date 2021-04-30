@@ -15,9 +15,17 @@ mvnw clean package
 mvnw spring-boot:run
 ```
 
+or
+
+```shell
+mvnw clean package
+java -jar target/CustomerStatement.jar
+```
+
 ## Requests
 
-Goto [OpenApi endpoint](http://localhost:8080/openapi.html)
+![](doc/openapi.png)
 
-or just look at the `Requests.http` file for request examples
+* Goto [OpenApi endpoint](http://localhost:8080/openapi.html)
+* or look at the `Requests.http` file for request examples
 

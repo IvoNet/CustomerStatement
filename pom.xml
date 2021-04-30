@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>nl.ordina</groupId>
-    <artifactId>RabobankCustomerStatement</artifactId>
+    <artifactId>CustomerStatement</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>RabobankCustomerStatement</name>
-    <description>Demo project for Spring Boot</description>
+    <name>CustomerStatement</name>
+    <description>TODO Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
         <testcontainers.version>1.15.3</testcontainers.version>
@@ -72,6 +72,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>CustomerStatement</finalName>
         <plugins>
             <plugin>
                 <groupId>org.asciidoctor</groupId>
