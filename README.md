@@ -15,4 +15,7 @@ mvnw clean package
 mvnw spring-boot:run
 ```
 
-Or just look at the `Requests.http` file for request examples
+## Requests
+
+Just look at the `Requests.http` file for request examples
+

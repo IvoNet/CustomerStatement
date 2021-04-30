@@ -18,10 +18,12 @@ public class GenericExceptionHandler {
                                                     final HttpServletRequest request,
                                                     final HttpServletResponse response) {
         final var ret = new ResponseStatement();
+
         if (ex instanceof NullPointerException) {
             ret.result(Result.BAD_REQUEST);
             return new ResponseEntity<>(ret, HttpStatus.BAD_REQUEST);
         }
+
         ret.result(Result.INTERNAL_SERVER_ERROR);
         return new ResponseEntity<>(ret, HttpStatus.INTERNAL_SERVER_ERROR);
     }

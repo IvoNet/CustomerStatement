@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * I fake being a very very simple database.
+ */
 @Component
 public class Database {
     @Getter

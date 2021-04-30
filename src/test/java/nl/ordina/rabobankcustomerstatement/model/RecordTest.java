@@ -1,6 +1,5 @@
 package nl.ordina.rabobankcustomerstatement.model;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
@@ -9,11 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class RecordTest {
-
-    @BeforeEach
-    void setUp() {
-
-    }
 
     @Test
     void isValid() {
