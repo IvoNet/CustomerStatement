@@ -1,0 +1,16 @@
+###
+GET http://localhost:8080/api/get
+Accept: application/json
+
+###
+POST http://localhost:8080/api/statement
+Content-Type: application/json
+
+{
+  "transactionReference": 1,
+  "iban": "nl62foob0123456789",
+  "startBalance": 0,
+  "mutation": 10,
+  "description": "test",
+  "endBalance": 10
+}

@@ -1,0 +1,8 @@
+{
+  "transactionReference": 2,
+  "iban": "NL62FOOB0123456789",
+  "startBalance": 0,
+  "mutation": 10,
+  "description": "test",
+  "endBalance": 10
+}
