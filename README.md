@@ -17,5 +17,7 @@ mvnw spring-boot:run
 
 ## Requests
 
-Just look at the `Requests.http` file for request examples
+Goto [OpenApi endpoint](http://localhost:8080/openapi.html)
+
+or just look at the `Requests.http` file for request examples
 
