@@ -26,6 +26,6 @@ java -jar target/CustomerStatement.jar
 
 ![](doc/openapi.png)
 
-* Goto [OpenApi endpoint](http://localhost:8080/openapi.html)
+* Goto the [OpenApi](http://localhost:8080/openapi.html) endpoint and play a bit
 * or look at the `Requests.http` file for request examples
 
